@@ -1,29 +1,27 @@
 body{
-  background: #FFEBEA;
+  background: #f3ccca;
   margin: 0px;
   padding: 0px;
 }
 
 h1{
   font-family: "dacing Script", cursive;
-  font-size: 50px;
-  margin: 0px 40%;
-  color: white
+  font-size: 450%;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 h2{
-  margin: 5px 45%;
-  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
   font-family: "dacing Script", cursive;
 }
 
 .cabecalho{
   padding: 20px;
   background: #E89C9A;
-}
-
-.lacos{
-  
 }
 
 hr{
@@ -34,66 +32,56 @@ hr{
 #img1{
   margin: 2px 6px;
   width: 48%;
-  height: 400px;
 }
 
 #img2{
-  margin: 2px 2px;
-  width: 49%;
-  height: 400px;
+  margin: 2px 6px;
+  width: 48%;
 }
 
 #img3{
-  margin: 0px 5px;
-  width: 32%;
-  height: 300px;
+  margin: 0px 6px;
+  width: 31%;
 }
 
 #img4{
-  margin: 0px 3px;
-  width: 32%;
-  height: 300px;
+  margin: 0px 6px;
+  width: 31%;
 }
 
 #img5{
-  margin: 0px 2px;
-  width: 32%;
-  height: 300px;
+  margin: 0px 6px;
+  width: 31%;
 }
 
 #img6{
   margin: 2px 6px;
   width: 48%;
-  height: 400px;
 }
 
 #img7{
-  margin: 2px 2px;
-  width: 49%;
-  height: 400px;
+  margin: 2px 6px;
+  width: 48%;
+  
 }
 
 #img8{
   margin: 0px 6px;
-  width: 32%;
-  height: 300px;
+  width: 31%;
 }
 
 #img9{
-  margin: 0px 2px;
-  width: 32%;
-  height: 300px;
+  margin: 0px 6px;
+  width: 31%;
 }
 
 #img10{
-  margin: 0px 2px;
-  width: 32%;
-  height: 300px;
+  margin: 0px 6px;
+  width: 31%;
 }
 
 .rodape{
   margin: 0px 0px;
-  height: 55px;
   background:  #E89C9A 
 }
 
@@ -101,11 +89,50 @@ hr{
   margin: 50px;
 }
 
-a{
-  color: black;
-  font-size: 18px;
+#opicao{
+  color: #f3ccca;
+  font-size: 150%;
   text-decoration: none;
   margin: 20px;
 }
 
+.container{
+  text-align: center;
+}
 
+#tele{
+  font-size: 150%;
+  color:blue;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 4%;
+}
+
+img:hover{
+ filter: brightness(80%);
+}
+
+img{
+  transition: 0.3s;
+}
+
+.lacos {
+  display: flex;
+  justify-content: center;
+}
+
+#tiaras {
+  width: 70%;
+}
+
+#lacos{
+  width: 70%;
+}
+
+#Outros {
+  width: 70%;
+}
